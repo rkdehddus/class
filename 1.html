@@ -71,10 +71,10 @@
 <p>비밀번호<input type="password" name=pwd></p>
 <hr>
 <br>
-<p><select name=비와이>
-<p><option value="가라사대">가라사대</option></p>
-<p><option value="초월">초월</option></p>
-<p><option value="찬란">찬란</option></p>
+ <p><select name=비와이></P>
+ <p><option value="가라사대">가라사대</option></p>
+ <p><option value="초월">초월</option></p>
+ <p><option value="찬란">찬란</option></p>
 </select>
 </p>
 <br>
@@ -113,12 +113,31 @@
 </td>
 <td><form action="http://iocalhost/hidden.php">
 <input type="hidden" name=Be value="Why">
-<p><label for=Bewhy>아이디</label>&nbsp;&nbsp;&nbsp;<input id=Bewhy type="text" name=id value="입력하세요"></p>
-<p><lable>비밀번호</lable><input type="password" name=pwd></p>
+<p><label for=Be>아이디</label>&nbsp;&nbsp;&nbsp;<input id=Be type="text" name=id value="입력하세요"></p>
+<p><lable for=Why>비밀번호</lable>< id=Why input type="password" name=pwd></p>
 <input type="submit">
 </form></td>
 </tr>
 </thead>
 </table>
+<div id="disqus_thread"></div>
+<script>
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://asdadasdad.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </body>
 </html>
